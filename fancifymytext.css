@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+fieldset {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+}
+
+textarea {
+    width: calc(100% - 22px); /* Adjust width for padding and border */
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    resize: vertical; /* Allows the user to vertically resize the textarea */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="radio"] {
+    margin: 0 5px 0 20px;
+}
+
+/* Add specific styles for radio buttons and labels to align them nicely */
+input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
